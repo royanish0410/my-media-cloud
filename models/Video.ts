@@ -16,7 +16,6 @@ export interface IVideo {
     height: number;
     width: number;
     quality?: number;
-    length: number;
   };
 }
 const videoSchema = new Schema<IVideo>(
